@@ -776,10 +776,12 @@ address {
 }
 
 .modal-input:hover,
-.modal-input:focus {
+.modal-input:focus+.modal-icon {
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
+
+
 
 .modal-field-comment {
     margin-bottom: 16px;
