@@ -683,7 +683,6 @@ address {
 .modal-close {
     width: 24px;
     height: 24px;
-    fill: #2e2f42;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #e7e9fc;
     border-radius: 50%;
@@ -701,9 +700,14 @@ address {
 
 .modal-close:hover,
 .modal-close:focus {
-    fill: #ffff;
     background-color: #404bbf;
     border: none;
+}
+
+
+.modal-close:hover>.modal-icon-close,
+.modal-close:focus>.modal-icon-close {
+    fill: #ffff;
 }
 
 .modal-icon-close {
@@ -772,9 +776,9 @@ address {
 }
 
 .modal-input:hover,
-.modal-input:focus+.modal-icon {
+.modal-input:focus {
     border-color: #4D5AE5;
-    fill: #ffff;
+    fill: #4D5AE5;
 }
 
 .modal-field-comment {
