@@ -783,6 +783,7 @@ address {
 }
 
 .button-modal {
+    display: block;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     font-family: inherit;
@@ -797,8 +798,8 @@ address {
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
-    position: relative;
-    left: 95px;
+    position: absolute;
+    left: 119px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
