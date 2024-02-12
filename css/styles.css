@@ -702,14 +702,12 @@ address {
 }
 
 .modal-text-top {
-    font-family: font-family;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 24px;
     margin-bottom: 16px;
 }
 
@@ -785,7 +783,6 @@ address {
 }
 
 .button-modal {
-    display: block;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     font-family: inherit;
@@ -798,9 +795,10 @@ address {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    margin-left: 95px;
     min-width: 169px;
     height: 56px;
+    position: relative;
+    left: 95px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -809,12 +807,6 @@ address {
 .button-modal:focus {
     background-color: #404BBF;
 }
-
-/* .submit-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 24px;
-} */
 
 .modal-input:hover,
 .modal-input:focus {
@@ -828,18 +820,6 @@ textarea:focus {
 .modal-checkbox {
     margin-bottom: 24px;
 }
-
-/* .check-icon {
-    width: 10px;
-    height: 8px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic- bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
-} */
 
 .form-check:checked+.check-text .privacy-check {
     background-color: #404BBF;
